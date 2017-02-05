@@ -1,10 +1,10 @@
 import tweepy, time, sys
 from States import *
 
-kconsumer_key = "NqM0x5BrkkYwOACBLLGenMkjf"
-kconsumer_secret = 'oTTFX8UB3DFo4YAmISw96tvdPVb97MtMZEZzhgKU4BbWyWmqgl'
-kaccess_key = '827725922572840961-L9oct69EU4FDQjNXkHDvCdqtcF9Kh7z'
-kaccess_secret = 'ZSYZJwFVgu54vlJYIYzjZE6cdIruc2yZtGAOZmUBXwWo7'
+kconsumer_key = '' #your consumer key here
+kconsumer_secret = '' #your consumer secret here
+kaccess_key = '' #your access key here
+kaccess_secret = '' #your access secret here
 
 auth = tweepy.OAuthHandler(kconsumer_key, kconsumer_secret)
 auth.set_access_token(kaccess_key, kaccess_secret)
